@@ -1,0 +1,42 @@
+.contact-section {
+  background-color: #ff5b5b;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+.contact-section::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.contact-section h5 {
+  font-weight: bold;
+}
+.contact-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contact-icon i {
+  background-color: #fff;
+  color: #ff5b5b;
+  border-style: dotted;
+  padding: 8px;
+  margin-left: 10px;
+}
+.btn-submit {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.btn-submit:hover {
+  background-color: #5a6268;
+}
